@@ -345,3 +345,52 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media (max-width: 1750px) {
+    /* body {
+        background-color: red;
+        color: red;
+    } */
+    div.hero-background-pos {
+        position: static;
+    }
+    div.hero-background {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 750px) {
+    div.snapshot-box-content
+     {
+        flex-direction: column;
+    }
+    div.nav-bar {
+        flex-direction: column;
+    }
+    div.nav-links {
+        margin: 1em;
+        
+    }
+    div.background {
+        width: 300px ;
+        height: 300px ;
+     }
+  
+}
+@media (max-width: 500px) {
+    div.background {
+       width: 300px ;
+       height: 300px ;
+    }
+}
+@media (max-width: 400px) {
+    ul.nav-links {
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    
+    div.hero-section {
+        padding: 0;
+    }
+   
+}
